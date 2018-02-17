@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" activate="startup" name="org.jongula.ecad.client.simulator">
+   <implementation class="org.jongula.ecad.internal.client.simulator.CircuitMonitor"/>
+   <reference bind="setNode" cardinality="1..1" interface="org.jongula.ecad.node.INode" name="node" policy="static"/>
+   <reference bind="setSignal" cardinality="1..1" interface="org.jongula.ecad.signal.ISignal" name="signal" policy="static"/>
+</scr:component>

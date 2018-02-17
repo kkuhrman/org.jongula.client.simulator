@@ -5,7 +5,7 @@ Bundle-SymbolicName: org.jongula.ecad.client.simulator
 Bundle-Version: 1.0.0.qualifier
 Bundle-Vendor: Kuhrman Technology Solutions LLC
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
-Bundle-Activator: org.jongula.ecad.internal.client.simulator.Activator
 Import-Package: org.jongula.ecad.node,
  org.jongula.ecad.signal,
  org.osgi.framework;version="1.8.0"
+Service-Component: OSGI-INF/component.xml
